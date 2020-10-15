@@ -10,6 +10,19 @@
 /*
 테마다크 와 관련된 코드 정의
 */
-body{
-	background-color: var(--bg_Color) !important;
+.theme-dark{
+--background-primary:transparent;
+--background-secondary:transparent;
+--background-secondary-alt:transparent;
+--background-tertiary:transparent;
+--header-primary:var(--col1)!important;
+--header-secondary:var(--col1)!important;
+--text-normal:var(--col1)!important;
+--text-muted:var(--col1)!important;
+--text-link:var(--col1)!important;
+--channels-default:var(--col1)!important;
+--interactive-normal:var(--col2)!important;
+--interactive-hover:var(--col3)!important;
+--interactive-active:var(--col1)!important;
+--interactive-muted:var(--col4)!important;
 }
